@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text":"Italy Consumer Confidence",
+      "subtitle": ["Index", "Source: Istat via ECO-API"]
+    },
+  
+    "width": 800,
+    "height": 600,
+  
+    "data": {"url": "https://api.economicsobservatory.com/ita/conf?vega"},
+  
+    "mark": {
+      "type": "line",
+      "color": "seagreen"},
+  
+    "encoding": {
+      "x": {"field": "date", "type": "temporal"},
+      "y": {"field": "value", "type": "quantitative", "title":null}
+    }
+  }
