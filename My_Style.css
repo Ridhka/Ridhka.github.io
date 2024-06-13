@@ -16,7 +16,7 @@ body {
     /* we want a page, that's centered and not too wide */
     /* try choosing a background color here - either use a name, or try rgb(red,green,blue) */
     /* background-color: * */
-    #grad {
+    grad {
       background-image: linear-gradient(rgb(235, 122, 178), rgb(200, 150, 205));
     }
     margin:0 auto;
@@ -24,7 +24,7 @@ body {
     padding-top: 60px;
   }
   
-  
+
   
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
@@ -57,7 +57,7 @@ body {
   
   /* Links */
   a {
-    color: #5a073e;
+    color: #5a0707;
     text-decoration: none;
   }
   
