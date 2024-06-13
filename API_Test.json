@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":" Mexico Consumer Confidence",
+    "subtitle": ["Index", "Source: INEGI via ECO-API"]
+  },
+
+  "width": 600,
+  "height": 400,
+
+  "data": {"url": "https://api.economicsobservatory.com/mex/conf?vega"},
+
+  "mark": {
+    "type": "line",
+    "color": "rebeccapurple"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title":null}
+  }
+  
+}
