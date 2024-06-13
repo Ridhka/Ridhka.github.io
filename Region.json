@@ -37,7 +37,7 @@
       "color": {
         "field": "value",
         "type": "quantitative",
-        "scale": {"range": ["purple", "yellow"]},
+        "scale": {"range": ["black", "white"]},
         "legend": {
           "title": null,
           "labelFontWeight": "lighter",
