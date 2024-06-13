@@ -17,7 +17,7 @@ body {
     /* try choosing a background color here - either use a name, or try rgb(red,green,blue) */
     /* background-color: * */
     grad {
-      background-image: linear-gradient(rgb(235, 122, 178), rgb(200, 150, 205));
+      background-image: linear-gradient(rgb(47, 180, 33), rgb(200, 150, 205));
     }
     margin:0 auto;
     max-width: 800px;
